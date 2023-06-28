@@ -55,7 +55,7 @@ function gameOver() {
   const elapsedTime= new Date().getTime() - startTime;
   message.innerHTML=`
   <span class"congrats">Congratulations!</span><br>
-  You finished in ${elapsedTime} seconds.
+  You finished in ${elapsedTime/1000} seconds.
   `;
 }
 
