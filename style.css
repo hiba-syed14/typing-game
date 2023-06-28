@@ -6,3 +6,7 @@ span:after{
     display:inline-block;
     width: 6px;
 }
+.highlight{
+    color:orange;
+    text-decoration: underline;
+}
